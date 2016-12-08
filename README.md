@@ -1,2 +1,2 @@
 # BullerSort
-A method of sorting a corpus of sentences, such that a human student of language may learn by easy gradations.
+A method of sorting a corpus of sentences, such that the human student of new languages may learn by easy gradations.
