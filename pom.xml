@@ -3,6 +3,20 @@
   <groupId>kor-eng</groupId>
   <artifactId>BO</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>BullerOrder</name>
+  <name>BullerSort</name>
   <description>A method of ordering a corpus of sentences.</description>
+  <dependencies>
+  <dependency>
+  <!-- jsoup HTML parser library @ http://jsoup.org/ -->
+  <groupId>org.jsoup</groupId>
+  <artifactId>jsoup</artifactId>
+  <version>1.10.2</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.mongodb/mongo-java-driver -->
+<dependency>
+    <groupId>org.mongodb</groupId>
+    <artifactId>mongo-java-driver</artifactId>
+    <version>3.4.2</version>
+</dependency>
+</dependencies>
 </project>
