@@ -10,11 +10,19 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 public class naverSentencePairs {
+	
 	String query = "sport";
 	Integer pagenumber = 0;
 	ArrayList<String[]> sentences = new ArrayList<String[]>();
 
+	
+	@SuppressWarnings("unused")
+	private ArrayList<String[]> getPairs() {
+		return sentences;
+		
+	}
 	public naverSentencePairs(String query, Integer pageNo) {
+		
 		String url = "http://endic.naver.com/search_example.nhn"
 				+ "?sLn=ko&ifAjaxCall=true&isTranslatedType=1&"
 				+ "pageNo=" + pagenumber
@@ -43,11 +51,6 @@ public class naverSentencePairs {
 			
 		
 	
-		
-	}
-
-	private ArrayList<String[]> getPairs() {
-		return sentences;
 		
 	}
 
